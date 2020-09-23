@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+[class*="col-"] {
+    background-color: lightgreen;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+[class*="col-"] > [class*="col-"] {
+    background-color: coral;
+}
+[class*="col-"] > [class*="col-"] > [class*="col-"] {
+    background-color: lightblue;
+}

@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', Arial, sans-serif;
+}
+
+button {
+    border-radius: 24px;
+    padding: 11px 18px;
+    border: 1px solid transparent;
+    text-transform: uppercase;
+}
+
+button.primary {
+    background-color: #14b46c;
+    border: 1px solid #14b46c;
+    color: white;
+}
+
+button.secondary {
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+}
+
+img {
+    max-width: 100%;
+}
+
+.header-top {
+    background-color: #ffb800;
+    height: 55%;
+    text-align: center;
+    position: relative;
+}
+
+.logo {
+    height: 100%;
+    display: inline-block;
+    padding-top: 14px;
+}
+
+.logo img {
+    width: 120px;
+    height: 27px;
+}
+
+.login {
+    padding-top: 7px;
+    padding-right: 7px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.login button {
+    background-color: rgba(255,255,255,0.25);
+    color: white;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+.login-text {
+    display: none;
+}
+
+.header-bottom {
+    background-color: #680091;
+    text-align: center;
+}
+
+.main-menu {
+    list-style-type: none;
+}
+
+.main-menu li a {
+    color: white;
+    text-decoration: none;
+    height: 45px;
+    line-height: 45px;
+    display: inline-block;
+    padding: 0 20px;
+}
+
+#jumbotron {
+    background-color: #ffb800;
+    text-align: right;
+}
+
+
+#cta {
+    background-color: #680091;
+    text-align: center;
+    color: white;
+    padding: 20px 0;
+}
+
+#cta p {
+    line-height: 40px;
+}
+
+#carousel::after {
+    clear: both;
+    content: '';
+    display: table;
+}
+
+#carousel img {
+    border: 2px solid white;
+}
+
+#accendi, #passioni {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.feature {
+    padding: 0 20px;
+}
+
+.canale {
+    margin: 10px;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.15);
+}
+
+@media screen and (min-width: 768px) {
+
+    header {
+        height: 100px;
+    }
+
+    .login-text {
+        display: inline;
+    }
+
+    .header-bottom {
+        height: 45%;
+    }
+
+    .main-menu li {
+        display: inline-block;
+    }
+
+    .text-right {
+        text-align: right;
+    }
+
+    .text-left {
+        text-align: left;
+    }
+
+    #cta p {
+        margin-right: 20px;
+    }
+}
